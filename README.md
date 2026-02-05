@@ -74,17 +74,6 @@ npm install
 
 Create `backend/.env`:
 
-```env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/sydney-events
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-GOOGLE_CALLBACK_URL=http://localhost:5000/api/auth/google/callback
-SESSION_SECRET=your-random-session-secret
-FRONTEND_URL=http://localhost:5173
-CRON_SCHEDULE=0 */6 * * *
-```
-
 ### 3. Setup Google OAuth
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
